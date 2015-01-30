@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mock Gmail</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+		<meta charset="UTF-8">
+	</head>
+	
+	<body>
+		<header>
+
+			<div class="header_top">
+				<div class="col-lg-2 header_logo pull-left">
+					<img src="http://upload.wikimedia.org/wikipedia/commons/3/30/Googlelogo.png" alt="google_logo">
+				</div>
+				<div class="col-lg-7 header_search">
+					<input class="form-control" type-"text">
+					<button type="button" class="btn btn-primary"><span></span></button>
+				</div>
+				<div class="col-lg-3 header_right">
+					<div class="nav navbar-nav pull-right">
+						<ul class="nav navbar-nav default header">
+							<li>+Hitomi</li>
+							<li><span class="glyphicon glyphicon-th" aria-hidden="true"></span></li>
+							<li><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></li>
+							<li><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></li>
+							<li><img src="http://i1310.photobucket.com/albums/s649/loudbeats/ChiwawaDog_zps24a37c1c.jpg" class="img-circle profile" width="25px" height="25px"></li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+
+			<div class="header_divider">
+			</div>
+
+			<div class="header_bottom">
+				<div class="col-lg-2 header_dropmenu pull-left">
+					<div class="dropdown">
+					  <button class="btn btn-default dropdown-toggle" type="button" id="dropmenu1" data-toggle="dropdown" aria-expanded="true">Gmail  <span class="caret"></span></button>
+					  <ul class="dropdown-menu" role="menu" aria-labelledby="dropmenu1">
+					    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Gmail</a></li>
+					    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Contact</a></li>
+					    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Tasks</a></li>
+					  </ul>
+					</div>
+				</div>
+
+				<div class="col-lg-7 header_buttons">
+					<div class="btn-group header_btn">
+					  <button type="button" class="btn btn-default mail-button">
+							<span><input type="checkbox" name="checkbox"></span> <span class="caret"></span></button>
+					   <button type="button" class="btn btn-default mail-button"><span class="glyphicon glyphicon-refresh"></span></button>
+					   <button type="button" class="btn btn-default mail-button">More <span class="caret"></span>
+					    <span class="sr-only">Toggle Dropdown</span>
+					  </button>
+					  <ul class="dropdown-menu" role="menu">
+					    <li><a href="#">unread</a></li>
+					    <li><a href="#">list</a></li>
+					  </ul>
+					</div>
+				</div>
+
+				<div class="col-lg-3 pull-right header_right_bottom">
+					<div class="btn-group header_btn pull-right">
+					   <button type="button" class="btn btn-default mail-button"><span class="glyphicon glyphicon-cog"></span>
+					    <span class="sr-only">Toggle Dropdown</span>
+					  </button>
+					  <ul class="dropdown-menu" role="menu">
+					    <li><a href="#">unread</a></li>
+					    <li><a href="#">list</a></li>
+					  </ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="header_divider">
+			</div>
+		</header>
+
+		<div class="container">
+			<aside class="col-lg-2 menu">
+				<div class="menu-top">
+					<button type="button" class="btn btn-default compose_btn">COMPOSE</button>
+					<ul class="list-unstyled inbox_menu">
+						<li>Inbox</li>
+						<li>Starred</li>
+						<li>Important</li>
+						<li>Sent Mail</li>
+						<li>Drafts</li>
+						<li>Spam</li>
+					</ul>
+					<ul class="list-unstyled inbox_menu">
+						<li>[Gmail]Trash</li>
+						<li>Calendar</li>
+					</ul>
+				</div>
+				<div class="menu-divider">
+				</div>
+				<div class="menu-bottom">
+				</div>
+			</aside> 
+
+			<main class="col-lg-10 pull-right main_container">
+				<div class="mail_row">
+					<div class="dropdown">
+						  <button class="btn btn-default mail_row_button" type="button"><span class="caret"></span>  Everything else</button>
+					</div>
+				</div>
+				<div class="main_message">
+					<div class="msg_divider">
+					</div>
+					<div class="message_item js-msg-row">
+						<div class="col-lg-1 check_box">
+							<input type="checkbox" name="checkbox" class="mail_checkbox">
+						</div>
+						<div class="col-lg-2 senders">
+							<p class="message-line">LinkedIn Invitation</p>
+						</div>
+						<div class="col-lg-8 subject">
+							<p class="message-line">See Chiwawa connections, experience, and more - See Chiwawa's connections, experience, and more</p>
+						</div>
+						<div class="col-lg-1 time">
+							<p class="message-line time">11:33am</p>
+						</div>
+					</div>
+					<div class="message_item js-msg-row">
+						<div class="msg_divider">
+						</div>
+						<div class="col-lg-1 check_box">
+							<input type="checkbox" name="checkbox" class="mail_checkbox">
+						</div>
+						<div class="col-lg-2 senders">
+							<p class="message-line">LinkedIn Invitation</p>
+						</div>
+						<div class="col-lg-8 subject">
+							<p class="message-line">See Chiwawa connections, experience, and more - See Chiwawa's connections, experience, and more</p>
+						</div>
+						<div class="col-lg-1 time">
+							<p class="message-line time">11:33am</p>
+						</div>
+					</div>
+					<div class="message_item js-msg-row">
+						<div class="msg_divider">
+						</div>
+						<div class="col-lg-1 check_box">
+							<input type="checkbox" name="checkbox"class="mail_checkbox">
+						</div>
+						<div class="col-lg-2 senders">
+							<p class="message-line">LinkedIn Invitation</p>
+						</div>
+						<div class="col-lg-8 subject">
+							<p class="message-line">See Chiwawa connections, experience, and more - See Chiwawa's connections, experience, and more</p>
+						</div>
+						<div class="col-lg-1 time">
+							<p class="message-line time">11:33am</p>
+						</div>
+					</div>
+					<div class="message_item js-msg-row">
+						<div class="msg_divider">
+						</div>
+						<div class="col-lg-1 check_box">
+							<input type="checkbox" name="checkbox" class="mail_checkbox">
+						</div>
+						<div class="col-lg-2 senders">
+							<p class="message-line">LinkedIn Invitation</p>
+						</div>
+						<div class="col-lg-8 subject">
+							<p class="message-line">See Chiwawa connections, experience, and more - See Chiwawa's connections, experience, and more</p>
+						</div>
+						<div class="col-lg-1 time">
+							<p class="message-line time">11:33am</p>
+						</div>
+					</div>
+					<div class="message_item js-msg-row">
+						<div class="msg_divider">
+						</div>
+						<div class="col-lg-1 check_box">
+							<input type="checkbox" name="checkbox" class="mail_checkbox">
+						</div>
+						<div class="col-lg-2 senders">
+							<p class="message-line">LinkedIn Invitation</p>
+						</div>
+						<div class="col-lg-8 subject">
+							<p class="message-line">See Chiwawa connections, experience, and more - See Chiwawa's connections, experience, and more</p>
+						</div>
+						<div class="col-lg-1 time">
+							<p class="message-line time">11:33am</p>
+						</div>
+					</div>
+					<div class="message_item js-msg-row">
+						<div class="msg_divider">
+						</div>
+						<div class="col-lg-1 check_box">
+							<input type="checkbox" name="checkbox" class="mail_checkbox">
+						</div>
+						<div class="col-lg-2 senders">
+							<p class="message-line">LinkedIn Invitation</p>
+						</div>
+						<div class="col-lg-8 subject">
+							<p class="message-line">See Chiwawa connections, experience, and more - See Chiwawa's connections, experience, and more</p>
+						</div>
+						<div class="col-lg-1 time">
+							<p class="message-line time">11:33am</p>
+						</div>
+					</div>
+					<div class="msg_divider">
+					</div>
+				</div>
+			</main>
+
+		</div>
+		<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+		<script src="mock_gmail.js"></script>
+	</body>
+</html>
