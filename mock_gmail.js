@@ -12,3 +12,15 @@ $(".mail_checkbox").on("click", function() {
 }
 });
 
+$(".header_checkbox").click(function(){
+	    	var newButtons = $('<button type="button" class="btn btn-default mail-button-selected"><span class="glyphicon glyphicon-download-alt"></span></button><button type="button" class="btn btn-default mail-button-selected"><span class="glyphicon glyphicon-info-sign"></span></button><button type="button" class="btn btn-default mail-button-selected"><span class="glyphicon glyphicon-trash"></span></button>');
+        
+            if($(this).prop("checked")){
+                $(newButtons).appendTo(".header_btn_js");
+                $(".js-button").hide();
+            } else {
+            	$(".js-button").show();
+            	console.log($("newButtons"));
+            	$(".mail-button-selected").hide();
+            }
+});
