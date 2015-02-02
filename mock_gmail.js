@@ -24,3 +24,18 @@ $(".header_checkbox").click(function(){
             	$(".mail-button-selected").hide();
             }
 });
+
+var compose_page = false;
+$(document).ready(function() {
+    $(".compose_window").hide(); 
+
+    $('.compose_btn').click(function() {
+    	if (compose_page == false){
+        $('.compose_window').show();
+        compose_page=true;
+    } else {
+    	$('.compose_window').hide();
+    	compose_page=false;
+    }
+    });
+});
