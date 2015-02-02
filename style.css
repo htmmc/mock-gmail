@@ -92,6 +92,16 @@ header .main-header{
 	font-size: 10px;
 	background-color: #f1f1f1;
 }
+.mail-button-selected{
+	width:70px;
+	margin: 0;
+	border-radius: 0px;
+	height:28px;
+	padding:0;
+	font-size: 10px;
+	background-color: #f1f1f1;
+	float:left;
+}
 .header_right_bottom{
 	margin:0;
 }
@@ -127,11 +137,14 @@ aside .inbox_menu{
 .mail_row_button{
 	border:none;
 }
+.mail_checkbox{
+	margin:0;
+}
 .message_item{
 	width: 100%;
 	height:35px;
 	font-size: 12px;
-	padding:0 0 0 10px;
+	padding:0px 0 0 10px;
 }
 .senders{
 	padding:0;
@@ -142,4 +155,58 @@ aside .inbox_menu{
 }
 .highlight{
 	background-color: #FFFFCC;
+}
+.dialogue_box{
+	width:475px;
+	height:80%;
+	background-color: #fff;
+	margin:0;
+	border-radius: 0;
+	border:#f1f1f1 1px solid;
+}
+.compose_window{
+    width:475px;
+    height:75%;
+    border:#f1f1f1 1px solid;
+    font-size:12px;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+.compose_window_top{
+    width:100%;
+    height:30px;
+    background:gray;
+    color:#fff;
+}
+.compose_window_divider{
+    width:100%;
+	height:1px;
+	background-color: #d1d1d1;
+}
+.compose_window_row{
+    height: 35px;
+    width:100%;
+    background-color: #fff;
+}
+.compose_window_bottom{
+    height:40px;
+    width:100%;
+    background-color:#f1f1f1;
+    bottom: 0px;
+}
+.compose_window_main{
+    width:100%;
+    height: 357px;
+    background-color: #fff;
+}
+.send_btn{
+	font-size: 10px;
+    width: 65px;
+    height:25px;
+	background-color:#4285f4;
+	color:#fff;
+	border-radius: 0px;
+	border: none;
+    margin:8px 5px;
 }
